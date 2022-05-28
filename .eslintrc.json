@@ -35,7 +35,20 @@
             "prefix": "app",
             "style": "camelCase"
           }
-        ]
+        ],
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "array-element-newline": ["error", "consistent"],
+        "array-bracket-newline": ["error", "consistent"],
+        "indent": ["error", 2],
+        "comma-dangle": ["error", "always-multiline"],
+        "padding-line-between-statements": [
+          "error",
+          {"blankLine": "never", "prev": "import", "next": "import"}
+        ],
+        "padded-blocks": ["error", "never"],
+        "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0, "maxBOF": 0}],
+        "@typescript-eslint/semi": ["error", "never"]
       }
     },
     {
