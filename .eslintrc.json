@@ -24,7 +24,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
+            "prefix": "da",
             "style": "kebab-case"
           }
         ],
@@ -32,7 +32,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "app",
+            "prefix": "da",
             "style": "camelCase"
           }
         ],
@@ -48,7 +48,9 @@
         ],
         "padded-blocks": ["error", "never"],
         "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0, "maxBOF": 0}],
-        "@typescript-eslint/semi": ["error", "never"]
+        "@typescript-eslint/semi": ["error", "never"],
+        "no-multi-spaces": ["error"],
+        "space-infix-ops": ["error"]
       }
     },
     {
